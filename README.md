@@ -2,6 +2,9 @@
 All Things Related to Algorithm Trading Cryptocurrency  
 
 ## Directory
+#### Alternative_GrabData.ipynb
+Python code to fetch data from websites with limited/slow/un-stable APIs or websites that don't offer APIs at all. The information is fetched using Get requests and Selenium and then recorded to a SQL database
+
 #### BNB_GrabData.ipynb
 Python code to fetch market info and order book data from Binance and store it as a CSV (collects for BTC, ETH, and USDT markets up to any number of coin pairs)  
 
