@@ -10,7 +10,7 @@ LOCALPATH=$PWD/Desktop/
 getDataFile () {
 	sftp -i /path/to/your/ssh_key server@123.45.67.890 <<EOF
 	cd server/strategy_A/$1/
-	get data_$1_$2.txt $3data_$1_$25.txt
+	get data_$1_$2.txt $3data_$1_$2.txt
 	exit
 EOF
 }
