@@ -12,13 +12,13 @@ BTC-ETH Info and Depth Data CSV files collected using this code are uploaded to 
 #### BNB_SA.ipynb
 Python code for a sample trading startegy. It details mundane aspects for a live code such as robustness, start-up data retrieval, placing checking and cancelling orders, performance data logging, and clearing memory. It also illustrates more interesting features like parameter resets, manual over rides, a simple stop loss/termination, and email updates.
 #### BNB_getBalances.ipynb
-Python code to retreive all Binances balances, display individual assets held and allocations, and show total value in BTC and USD.
+Python code to retreive all Binance balances, display individual assets held and allocations, and show total value in BTC and USD.
 #### Clustering_&_Machine_Learning.ipynb
 Python code to analyze the results of backtesting over 3500 parameters combinations on over 4 months of data. K-Means and SpectralClustering are used to cluster the results and find groups of parameters that yield similar/reliable returns, so that ideal parameters can be chosen for use in a live code. Next SGD, SVR, Ridge, and DecisionTree Regressors ared used to model the backtest results. This time though some of the results are saved as testing data to see if we can use the models to accurately predict the returns based on parameters. Complex strategies can be time consuming to backtest so a good model can help find optimal parameters faster.
 #### Forecasting.ipynb
 Python code to forecast Ethereum prices (in terms of Bitcoin) using an ARIMA model. The best model predicts p(t+1) = p(t) as this minimizes the error (particularly when the time interval between data points is small). This has been found to be the case with LSTM RNNs as well. Ultimately a different model analyzing more than just prices is necessary to be effective.
 #### getDataFiles.sh
-Bash script to retrieve the performance log files of all live trading codes using an SFTP connection with an SSH key. Downloads all files to the local computers Desktop. It is much faster and convenient alternantive to using FileZilla.
+Bash script to retrieve the performance log files of all live trading codes using an SFTP connection with an SSH key. Downloads all files to the local computers Desktop. It is a much faster and convenient alternantive to using FileZilla.
 
 ##  Motivation
 In July/August of 2017 I bought $50 worth of Ethereum. I held and did 15% in a week and quickly added more money. Soon after I had put the majority of my internship savings into cryptocurrency and was actively day trading. I was in my final year of engineering graduate school and when the semester resumed I couldn't help but think that surrounded by all these supposedly intelligent people I should be able take this to the next level: algorithm trading.  
