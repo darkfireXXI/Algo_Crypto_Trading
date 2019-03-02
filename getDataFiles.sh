@@ -15,7 +15,7 @@ getDataFile () {
 EOF
 }
 
-for i in ${PAIRS[@]}
+for i in ${PAIRS1[@]}
 do
 	echo $i
 	getDataFile $i $DATE1 $LOCALPATH
