@@ -1,5 +1,5 @@
 # UPDATE 2020-03-28
-The scripts here are examples of early and unsuccessful work. They are not comparable to the level of work I currently develop. Anything useful and revenue genrating is [here](https://github.com/Abacus-Trading). If you would like to see examples of scripts developed in the private repositories simply message me.
+The scripts here are examples of early and unsuccessful work. They are not comparable to the level of work I currently develop. Anything useful and revenue generating is [here](https://github.com/Abacus-Trading). If you would like to see examples of scripts developed in the private repositories simply message me.
 
 # Algo Crypto Trading
 All Things Related to Algorithm Trading Cryptocurrency  
